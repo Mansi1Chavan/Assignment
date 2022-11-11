@@ -1,0 +1,79 @@
+.ass{
+    display:flex;
+    justify-content: center;
+}
+.first{
+    margin-left:300px;
+
+}
+.second{
+    margin-left:400px;
+
+}
+.third{
+    margin-left:400px;
+
+}
+.diet1{
+    border: 10px solid rgb(97, 199, 233);
+    height: 170px;
+    width: 200px;
+    margin: 10px;
+}
+.diet2{
+    border: 10px dashed rgb(97, 199, 233);
+    margin: 10px;
+}
+.diet3{
+    border: 10px dotted rgb(97, 199, 233);
+    margin: 10px;
+    padding-left: 90px;
+    width: 300px;
+   
+}
+.diet4{
+    border: 5px solid rgb(97, 199, 233) ;
+    margin: 10px;
+    outline: 5px solid rgb(7, 51, 75);
+}
+.diet5{
+    border: 5px solid rgb(194, 215, 226);
+    outline: 5px solid rgb(56, 86, 95);
+    margin: 10px;
+}
+.diet6{
+    border: 10px double rgb(97, 199, 233);
+    margin: 20px;
+}
+.diet7{
+    border: 10px none rgb(97, 199, 233);
+    margin: 10px;
+}
+.heading{
+    text-align: center;
+    color: white;
+}
+.food-is-love{
+background-color: aqua;
+width: 850px;
+text-align: justify;
+margin-left: 250px;
+padding: 30px;
+color: white;
+border:20px solid black;
+border-top-color: green;
+border-bottom-color: blue;
+border-left-color: red;
+border-right-color: pink;
+}
+.insta{
+    height: 50px;
+    width: 100%;
+    background-color: aqua;
+    color: white;
+    text-align: center;
+    margin: 30px;
+    padding:15px;
+    padding-right: 10px;
+    font-size: 30px;
+}

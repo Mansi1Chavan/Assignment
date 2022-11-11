@@ -1,0 +1,223 @@
+.html body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    height: 50px;
+    width: 100%;
+    background-color: rgba(118, 220, 186, 0.865);
+    display: flex;
+}
+
+.left {
+    font-weight: 100;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+.middle {
+    float: end;
+    font-size: medium;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+    font-size: 25px;
+}
+
+.home {
+    color: white;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(166, 46, 76);
+    margin-right: 10px;
+    text-underline-offset: 5px;
+}
+
+.about {
+    color: rgb(166, 46, 76);
+    margin-right: 10px;
+    font-weight: 200px;
+}
+.right {
+    display: flex;
+    /* margin-right: 30%; */
+
+}
+.m{
+margin-left: 30px;
+display: flex;
+
+}
+.login {
+    border: none;
+    font-size: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 3px;
+    background-color: white;
+    float: right;
+    margin: 10px;
+    margin-right: 10px;
+    justify-content: right;
+    align-items: right;
+}
+
+.second-div {
+    height: 450px;
+    background-color: antiquewhite;
+}
+.headline {
+    font-size: 25px;
+    font-weight: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.horizontal-row{
+    display: flex;
+    padding: 10px;
+    /* display: grid; */
+}
+.first {
+    height: 350px;
+    width: 250px;
+    border: 2px solid rgb(138, 23, 92);
+    padding: 10px 0px 0px 140px;
+    margin-right: 25px;
+}
+.class1 {
+    height: 100px;
+    width: 100px;
+    border: 5px solid rgb(39, 118, 118);
+    background-color: rgb(87, 242, 242);
+    border-radius: 8%;
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.class2 {
+    height: 100px;
+    width: 100px;
+    border: 5px solid rgb(204, 63, 16);
+    border-radius: 8%;
+    background-color: orange;
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second{
+    height: 350px;
+    width: 250px;
+    border: 2px solid rgb(138, 23, 92);
+    padding: 10px 0px 0px 140px;
+    padding-right: 25px;
+    margin-right: 25px
+}
+.third{
+    height: 350px;
+    width: 250px;
+    border: 2px solid rgb(138, 23, 92);
+    padding: 10px 0px 0px 140px;
+
+}
+.third-div {
+    height: 450px;
+    background-color: white;
+    border: 2px solid black;
+}
+.horizontal-row1{
+    display:flex;
+
+}
+.second2{
+    display: grid;
+    height: 350px;
+    width: 250px;
+    grid-template-columns: 100px;
+    grid-template-rows: 100px;
+}
+.class13{
+    background-color: rgb(87, 242, 242);
+border: 2px solid black;
+}
+.flex{
+    height: 520px;
+    width: 100%;
+    background-color: rgb(213, 212, 211);
+    padding-top: 5px;
+}
+.item1{
+    height: 100px;
+    width: 100px;
+    border: 5px solid rgb(39, 118, 118);
+    background-color: rgb(87, 242, 242);
+    border-radius: 8%;
+    margin-bottom: 3px;
+    margin-left: 45%;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.par{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100px;
+    padding: 15px;
+}
+.fifth{
+    display: flex;
+    height: 450px;
+    background-color: rgb(246, 232, 232);
+    border: 2px solid black;
+}
+.fifth-div1{
+display: flex;
+padding: 20px;
+justify-content: center;
+align-items: center;
+}
+.fifth-div2{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    
+    }
+.itm1{
+    height: 100px;
+    width: 100px;
+    border: 5px solid rgb(39, 118, 118);
+    background-color: rgb(87, 242, 242);
+    border-radius: 8%;
+    margin-bottom: 3px;
+    padding-right: 20px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.itm2{
+    height: 100px;
+    width: 100px;
+    border: 5px solid rgb(39, 118, 118);
+    background-color: rgb(87, 242, 242);
+    border-radius: 8%;
+    margin-bottom: 3px;
+    padding-right: 20px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,570 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.shopping {
+    width: 100vw;
+    height: 100%;
+    background-color: white;
+    color: gray;
+    font-family: "Roboto, system-ui, sans-serif";
+
+}
+
+.first {
+    height: 50px;
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.underline{
+    border-bottom: 1px solid rgb(184, 181, 181);
+}
+.left-first {
+    display: flex;
+}
+
+.insta {
+    padding: 5px;
+    margin: 5px;
+    font-size: x-large;
+}
+
+.right-first {
+    display: flex;
+}
+
+.usd {
+    padding-right: 25px;
+}
+
+.second {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    height: 150px;
+    max-width: 60vw;
+    margin:auto;
+}
+
+.left-second {
+    color: rgb(225, 136, 136);
+    font-size: 50px;
+      
+}
+
+.mid-second {
+    border-radius: 5px;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    width: 50%;
+    border: 1px solid rgb(184, 181, 181);
+}
+.product{
+    height: 30px;
+    width: 25vw;
+    display: flex;
+
+}
+
+.right-second {
+    display: flex;
+}
+
+.icon {
+    margin-right: 20px;
+}
+
+.third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    color: black;
+}
+
+.home {
+    margin: 20px;
+
+}
+
+.fourth {
+    font-size: 25px;
+    height: 400px;
+    width: 60vw;
+    border: 1px solid rgb(203, 202, 202);
+    margin: auto;
+    background-image: url("banner-1.jpg");
+    background-size: cover;
+    margin: 100px;
+/* padding-top: 100px; */
+}
+
+.trend {
+    color: lightpink;
+}
+
+.h1 {
+    color: black;
+    font-size: 50px;
+    margin-top:100px;
+
+}
+
+.img {
+    height: 400px;
+    width: 1000px;
+}
+
+.shop {
+    background-color: lightpink;
+    color: white;
+    border: none;
+    padding: 5px;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.fifth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    margin: auto;
+}
+
+.box1 {
+    width: 14vw;
+    border: 1px solid rgb(197, 193, 193);
+    margin: 7px;
+    border-radius: 5px;
+}
+.box11 {
+    width: 14vw;
+    border: 1px solid rgb(197, 193, 193);
+    margin: 7px;
+    border-radius: 5px;
+}
+
+.img-frock {
+    height: 35px;
+    width: 35px;
+    border: none;
+    background-color: rgb(239, 232, 232);
+    border-radius: 5px;
+    margin: 10px;
+    float: left;
+}
+
+.frock{
+    font-size: 15px;
+
+}
+.dress {
+    font-size: 10px;
+    margin-top: 8px;
+}
+
+.span {
+    font-size: 10px;
+    display: flex;
+
+}
+
+.sixth {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70vw;
+    margin: auto;
+}
+
+.arrival {
+    margin-right: 50px;
+    font: 50px;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    font-size: 30px;
+} 
+.arrival2 {
+    margin-right: 50px;
+    font: 50px;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    font-size: 30px;
+}
+
+.first-row .second-row .third-row {
+    display: flex;
+}
+
+.seventh {
+    display: flex;
+    width: 70vw;
+    margin: auto;
+    height: 400px;
+    margin-left: 300px;
+
+}
+
+.clothes {
+    border: 1px solid rgb(204, 198, 198);
+    height: 80px;
+    width: 250px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.t-shirt {
+    float: left;
+    margin: 10px;
+    height: 60px;
+    width: 60px;
+}
+
+.r1 {
+    font-size: 15px;
+    font-weight: bolder;
+    color: black;
+}
+
+.price {
+    color: lightpink;
+    display: flex;
+    padding-right: 50px;
+}
+
+.erase {
+    text-decoration: line-through;
+    color: black;
+}
+
+.deal {
+    margin: auto;
+    width: 50vw;
+    font-size: 20px;
+    color: black;
+    border-bottom: 1px solid rgb(184, 180, 180);
+}
+
+.eighth {
+    height: 400px;
+    border: 1px solid rgb(193, 190, 190);
+    width: 50vw;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.shampo {
+    float: left;
+    height: 300px;
+}
+
+.star {
+    height: 50px;
+    width: 50px;
+    display: flex;
+}
+.conditioner {
+    font-size: 20px;
+    padding-top: 5px;
+    color: black;
+}
+
+.count {
+    display: flex;
+}
+
+.sold {
+    margin-right: 200px;
+}
+
+.prince {
+    font-size: 20px;
+    display: flex;
+    color: lightpink;
+    margin: 20px;
+
+}
+
+.div1 {
+    padding-right: 20px;
+}
+
+.eraser {
+    text-decoration: line-through;
+    color: black;
+}
+
+.one {
+    margin-right: 25px;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+.time{
+text-align: right;
+}
+
+.day1 {
+    text-align: center;
+    padding-right: 50px;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.dddd {
+    height: 30px;
+    width: 30px;
+    border: 1px solid rgb(179, 174, 174);
+    background-color: rgb(239, 232, 232);
+    border-radius: 4px;
+    margin: 10px;
+    float: right;
+    padding: 10px;
+}
+
+.nineth {
+    margin-left: 150px;
+}
+
+.new {
+    border-bottom: 1px solid rgb(183, 181, 181);
+    font-size: 20px;
+    width: 50vw;
+    color: black;
+    margin: auto;
+}
+
+.tenth {
+    display: flex;
+width: 50vw;
+margin:auto;
+}
+
+.jacket {
+    border: 1px solid rgb(191, 187, 187);
+    height: 240px;
+    width: 170px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.item {
+    height: 100px;
+    width: 100px;
+    margin-left:50px;
+}
+
+.pink {
+    color: lightpink;
+    font-size: 20px;
+    text-align: center;
+}
+.twinkle{
+    display: flex;
+}
+.shine {
+    height: 10px;
+    width: 10px;
+    display: flex;
+}
+
+.star1 {
+    height: 20px;
+    width: 20px;
+    display: flex;
+}
+
+.value {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sell {
+    font-size: 20px;
+    color: black;
+}
+
+.cost {
+    text-decoration: line-through;
+}
+
+.rowone .rowtwo .rowthree .rowfour {
+    display: flex;
+}
+
+.eleventh {
+    display: flex;
+    width: 70vw;
+    margin: auto;
+}
+
+.firstdiv {
+    height: 300px;
+    width: 200px;
+}
+
+.testimonial {
+    border-bottom: 1px solid rgb(179, 175, 175);
+    color:black;
+}
+
+.alan-doe {
+    border: 1px solid rgb(185, 183, 183);
+    height: 280px;
+    width: 200px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-top: 25px;
+
+}
+
+.alan-img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.quotes {
+    height: 50px;
+    width: 50px;
+}
+
+.secondiv {
+    width: 50%;
+    height: 330px;
+    background-image: url(cta-banner.jpg);
+    background-size: cover;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.discount {
+    height: 120px;
+    width: 180px;
+    background: transparent;
+    border: 1px solid rgb(211, 207, 207);
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 10px;
+    float: center;
+}
+
+.dis {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    width: 150px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.order1 {
+    display: flex;
+    padding-left: 25px;
+}
+
+.twelve {
+    display: flex;
+    width: 70vw;
+    margin: auto;
+}
+
+.banner4 {
+    height: 180px;
+    margin: 10px;
+    width: 215px;
+    border-radius: 10px;
+}
+.banner44 {
+    height: 180px;
+    margin: 10px;
+    width: 215px;
+    border-radius: 10px;
+}
+
+.img1 {
+    text-align: justify;
+    text-align: center;
+
+}
+.img111 {
+    text-align: justify;
+    text-align: center;
+
+}
+
+.return {
+    width: 215px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.black {
+    background-color: rgb(34, 33, 33);
+    height: 500px;
+    padding: 35px;
+    line-height: 35px;
+    margin-top: 30px;
+}
+
+.bold {
+    font-size: 20px;
+}
+
+.pink1 {
+    color: lightpink;
+    font-size: 20px;
+}
+
+.flex {
+    display: flex;
+    margin-left: 30px;
+}
+
+.column {
+    padding-right: 50px;
+
+}
+.white{
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    }
+    .ppp1{
+        display: flex;
+        margin-right: 10px;
+}
+.column1{
+    width: 10px ;
+}
+.sticker{
+    display: flex;
+    margin-left: 400px;
+}
+.visa{
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    float: center;
+}
+
+.copyright{
+text-align: center;
+}
