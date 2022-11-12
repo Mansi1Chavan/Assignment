@@ -1,4 +1,13 @@
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 527px) {
+  .shopping{
+position: absolute;
+right:0px;  }
+  
+  
+  .ship{
+position: absolute;
+left:75px;}
+  
   .left-first {
     display: none;
 
@@ -21,6 +30,19 @@
   .right-first {
     display: none;
   }
+  .product {
+    height: 6rem;
+    /* width: 25vw; */
+    padding: .6rem;
+    /* font-size: 85%; */
+    /* position: relative; */
+
+}
+  .mid-second i{
+    position:absolute;
+    right:1.5rem;
+    top:3px;
+}
 
   .right-second {
     background-color: aqua;
@@ -216,13 +238,16 @@ width: 18rem;
 }
 }
 
-@media  screen and (max-width: 1190px) {
+@media  screen and (max-width: 1009px) {
   .left-first {
     display: none;
   }
 .left-second {
-  font-size: 3.5rem;
+  font-size: 3rem;
 
+}
+.mid-second i{
+min-width:fit-content;
 }
   .category {
     display: none;
@@ -233,10 +258,12 @@ width: 18rem;
   }
 
   .fifth {
-    overflow-x: scroll;
-    width: 70%;
-
+    /* display: flex; */
+    /* overflow-x: scroll; */
+   max-width: 60vw;
+    /* padding-right: .5rem; */
   }
+
   .right-second {
     background-color: aqua;
     width: 100%;
@@ -248,20 +275,16 @@ width: 18rem;
     bottom: 0;
     /* top: auto; */
     overflow:hidden;
-  }
-
-  .box11 {
-    width: 12rem;
-
-  }
+    }
 
   .box1 {
-    width: 12rem;
+    width:50% ;
 
   }
 
   .seventh {
     margin-left: 20%;
+    display: flex;
     flex-wrap: wrap;
     width: 70%;
   }
