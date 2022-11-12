@@ -1,0 +1,912 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@media (min-width:0px) and (max-width: 649px) {
+    .container{
+        max-width: 100%;
+    }
+    div.head{
+        padding: 1rem 3rem ;
+    }
+    div.head h5{
+        text-align: center;
+        min-width: 100%;
+    }
+    #currency{
+        display: none;
+    }
+    .icons{
+        display: none;
+    }
+    div.head2{
+        padding: 1rem;
+        display: block;
+    }
+    div.head2 h1{
+        text-align: center;
+    }
+    .user{
+        display: none;
+    }
+    div#searchbar{
+        max-width: 100%;
+        min-width: 50%;
+    }
+    nav{
+        display: none;
+    }
+    main.main{
+        padding: 1rem;
+    }
+    div.text.text8{
+        padding: .3rem;
+    }
+    div.text.text8 h2{
+        font-size: 1rem;
+    }
+    div.text.text8 h1{
+        font-size: 1.2em;
+    }
+    div.text.text8 h3{
+        font-size: 1rem;
+    }
+    div.text.text8 button{
+        padding: .2rem .7rem;
+        font-size: .6rem;
+    }
+    div.options{
+        display: block;
+    }
+    div.choice{
+        max-width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    div.left{
+        max-width: 70%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    section.mid-sec.middle{
+        padding: 2rem;
+        max-width: 100%;
+        display: block;
+        
+    }
+    div.sec1{
+        display: none;
+    }
+    div.sec2{
+        display: none;
+    }
+    .catalog{
+        display: none;
+    }
+   
+    div.content{
+        display: block;
+        justify-content: space-between;
+        max-width: 100%;
+        margin-left: 0;
+        padding-left: 0;
+        max-width: 100%;
+    }
+    /* div.catalog{
+        max-width: 100%;
+    } */
+    div.products{
+        max-width: 100%;
+        padding: 0;
+    }
+    div.box2{
+        display: block;
+    }
+    div.clothes{
+        max-width: 100%;
+    }
+    section.testimonial{
+        padding: 2rem;
+        display: flex;
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+    div.article{
+        min-width: 100%;
+        margin: auto;
+    }
+    div.offer2{
+        min-width: 100%;
+        padding: 2rem ;
+        height: 20rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    section.last_sec{
+        padding: 2rem;
+    }
+    footer.foot{
+        padding: 2rem;
+        display: block;
+    }
+    div.showcase{
+        display: block;
+    }
+    div.item4{
+        max-width: 100%;
+    }
+    div.payment{
+        padding: 0;
+    }
+    footer.pay.foot{
+        padding-bottom: 5rem;
+    }
+    div.tab{
+        display: block;
+        position: fixed;
+        bottom: 0;
+        min-width: 100%;
+        font-size: 2rem;
+        background-color: rgb(34, 92, 73);
+        padding: 1rem 0;
+        color: whitesmoke;
+        text-align: center;
+        letter-spacing: 1rem;
+    }
+
+
+}
+@media (min-width: 650px) and (max-width: 1024px)  {
+    .container{
+        max-width: 100%;
+    }
+    .icons{
+        display: none;
+    }
+    div.head{
+        padding: 1rem 3rem;
+    }
+    div.head2{
+        padding: 1rem 2rem;
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    div.head2 h1{
+        max-width: 35%;
+        font-size: 1.2rem;
+    }
+    .user{
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+    main.main{
+        padding: 1rem 2rem;
+    }
+    div.text.text8{
+        padding: 2rem;
+    }
+    div.choice{
+        min-width: 43%;
+        margin: .6rem;
+    }
+    section.mid-sec.middle{
+        padding: 1rem 2rem;
+        display: block;
+    }
+    .sec1{
+        display: none;
+    }
+    .sec2{
+        display: none;
+    }
+    div.content.contents{
+        max-width: 100%;
+    }
+    section.testimonial{
+        padding: 1rem;
+        display: block;
+    }
+    div.article{
+        min-width: 100%;
+        margin: auto;
+    }
+    div.offer2{
+        min-width: 100%;
+        padding: 2rem ;
+        height: 20rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+     section.last_sec{
+        padding: 2rem;
+    }
+    footer.foot{
+        padding: 2rem;
+    }
+    footer.pay.foot{
+        padding-bottom: 6rem;
+    }
+    div.tab{
+        display: block;
+        position: fixed;
+        bottom: 0;
+        min-width: 100%;
+        font-size: 3rem;
+        background-color: rgb(34, 92, 73);
+        padding: 1rem 0;
+        color: whitesmoke;
+        text-align: center;
+        letter-spacing: 2rem;
+    }
+    
+
+}
+
+
+@media (min-width:1025px) and (max-width:1330px) {
+.container {
+    max-width: 100vw;
+    /* padding: 0 15rem; */
+}
+.tab{
+    display: none;
+}
+
+div.head {
+    padding: 1rem 3rem;
+}
+div.head2{
+    padding: 1rem 3rem;
+}
+.main{
+    padding: 1rem 3rem;
+}
+
+section.mid-sec{
+    padding: 0 3rem;
+    /* width: 100%;
+    display: flex;
+    height: max-content;
+    margin-bottom: 2rem; */
+    
+}
+
+section.testimonial{
+    padding: 0 3rem;
+    
+}
+
+
+
+
+section.last_sec{
+    padding: 0 4rem;
+}
+
+div.part1{
+    padding: 3rem 3rem;
+}
+
+
+footer.foot1{
+    padding: 0 3rem;
+}
+
+
+}
+
+.container {
+    max-width: 100vw;
+    /* padding: 0 15rem; */
+}
+.tab{
+    display: none;
+}
+.icons .fa{
+    /* width: max-content; */
+    /* padding: 3px 6px; */
+    border-radius: 50%;
+    background-color: white;
+    color: grey;
+}
+#currency .fa {
+    padding: 5px;
+    font-size: small;
+}
+.head{
+    display: flex;
+    width: 100%;
+    padding: 6px 15rem;
+    justify-content: space-between;
+    border: 0.3px solid grey;
+    color: grey;
+}
+.head2{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1.2rem 15rem;
+    border: 0.5px solid grey;
+    border-top: none;
+}
+.head2 h1{
+    color: rgb(107, 161, 19);
+    font-size: 2.5rem;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Lobster', cursive;
+}
+#searchbar{
+    border: 0.3px solid grey;
+    padding: 0.5rem 1rem;
+    min-width: 30rem;
+    max-width: 35rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+
+}
+#searchbar .fa{
+    color: grey;
+    padding-top: 0.5rem;
+}
+.head2 input{
+    border: none;
+}
+.user{
+    font-size: 2rem;
+}
+.user .fa{
+    padding: 0.5rem;
+    color: grey;
+}
+main{
+    padding: 0 15rem;
+    max-width: 100%;
+}
+nav{
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    padding: 1rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.banner h2{
+    color: rgb(107, 161, 19);
+    font-weight: 500;
+    font-size: 1.8rem;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Lobster', cursive;
+}
+.banner h1{
+    max-width: 25rem;
+}
+.banner h3{
+    color: grey;
+}
+.banner span{
+    font-size: 1.5rem;
+}
+.banner button{
+    padding: .5rem 1rem;
+    background-color: rgb(107, 161, 19);
+    border: none;
+    color: whitesmoke;
+    border-radius: 8px;
+    font-weight: 600;
+    margin-top: .5rem;
+    cursor: pointer;
+}
+.box{
+    min-height: max-content;
+}
+.banner{
+    position: relative;
+    max-width: 100%;
+}
+.banner .text{
+    position: absolute;
+    z-index: 1;
+    padding: 8rem;
+}
+.banner img{
+    max-width: 100%;
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 100%;
+    min-height: 4rem;
+}
+.choice {
+    max-width: 24%;
+    display: flex;
+    justify-content: space-between;
+    border: .2px solid lightgray;
+    padding: .7rem;
+    border-radius: 6px;
+    margin: .5rem auto;
+    box-sizing: border-box;
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+    max-width: 70%;
+}
+.pic{
+    max-width: 50%;
+    border: .2px solid lightgrey;
+    padding: .2rem;
+    padding-right: 0;
+    background-color: lightgrey;
+}
+.pic img{
+    width: 100%;
+}
+.shop{
+    padding-left: 0.2rem;
+}
+.shop h3{
+    font-size: .9rem;
+}
+.shop h5 a{
+    text-decoration: none;
+    color: rgb(107, 161, 19);
+}
+.right{
+    color: grey;
+}
+.mid-sec{
+    padding: 0 15rem;
+    width: 100%;
+    display: flex;
+    height: max-content;
+    margin-bottom: 2rem;
+    
+}
+.sidebar{
+    position: sticky;
+    top: 0;
+    max-width: 24%;
+    min-width: 24%;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+
+}
+.item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.item .logo{
+    display: flex;
+    justify-content: space-between;
+    min-width: 33%;
+    max-width: 38%;
+    padding: .3rem;
+}
+.item img{
+    max-width: 25%;
+}
+.item .plus{
+    padding: .3rem;
+    font-size: small;
+    font-weight: 100;
+    color: gray;
+}
+.heading3{
+    font-size: 1rem;
+    padding: 1rem;
+}
+.item .perfume{
+    /* max-width: 45%; */
+    min-width: 35%;
+}
+.item .cosmetics{
+    min-width: 39%;
+}
+.item .bags{
+    min-width: 27%;
+}
+.checked{
+    color: orange;
+}
+.item2{
+    min-width: 100%;
+    display: flex;
+    padding: .4rem;
+}
+.image{
+    max-width: 20%;
+}
+.image img{
+    max-width: 100%;
+}
+.shop p span{
+    text-decoration: line-through;
+}
+
+.content{
+    min-width: 74%;
+    max-width: 75%;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    align-items: flex-start;
+}
+.catalog{
+    min-width: 33%;
+    padding: .5rem;
+}
+.catalog h3{
+    border-bottom: .1px solid lightgray;
+    padding-bottom: .5rem;
+    max-height: min-content;
+}
+.products{
+    border: .1px solid lightgray;
+    border-radius: 6px;
+    display: flex;
+    max-width: 32%; 
+    justify-content: space-between;
+    max-height: max-content;
+    padding: .2rem .4rem;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+}
+.products .inner_pic{
+    max-width: 30%;
+}
+.inner_pic img{
+    max-width: 100%;
+}
+.products p span{
+    color: rgb(107, 161, 19);
+    font-weight: 600;
+}
+.text h4{
+    font-size: .9rem;
+    /* line-height: 2rem; */
+}
+.deal{
+    border-bottom: .1px solid lightgray;
+    min-width: 100%;
+    padding: .3rem;
+    margin: 2rem 0;
+}
+.shampoo{
+    min-width: 100%;
+    max-height: max-content;
+    border: .1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 1rem;
+    line-height: 2rem;
+}
+.sham_pic{
+    max-width: 50%;
+}
+.sham_pic img{
+    max-width: 100%;
+}
+#price{
+    color: rgb(107, 161, 19) ;
+    font-size: 1.7rem;
+}
+#price span{
+    text-decoration: line-through;
+    color: grey;
+    font-size: 1.3rem;
+}
+.desc p{
+    font-size: .8rem;
+}
+.desc button{
+    background-color: rgb(107, 161, 19) ;
+    color: whitesmoke;
+    padding: .7rem 1.4rem;
+    border: none;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.value{
+    display: flex;
+    justify-content: space-between;
+    min-width: 100%;
+    max-width: 100%;
+}
+.mtr{
+    width: 100%;
+    border: .2px solid lightgray;
+    border-radius: 25px;
+}
+.inner_mtr{
+    width: 40%;
+    height: 4px;
+    background-color: rgb(107, 161, 19);
+}
+.time{
+    display: flex;
+    min-width: 100%;
+    justify-content:flex-start;
+}
+.offer{
+    width: 15%;
+    background-color: lightgray;
+    padding: .3rem;
+    align-items: flex-start;
+    text-align: center;
+    border-radius: 6px;
+    margin-right: 1rem;
+    line-height: 1.3rem;
+}
+.new_prod{
+    padding: 1rem;
+    padding-top: 3rem;
+    border-bottom: .1px solid lightgray;
+    min-width: 100%;
+}
+.box2{
+    max-width: 100%;
+    min-height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: stretch;
+    padding-bottom: 2rem;
+}
+.clothes{
+    max-width: 22%;
+    border: .1px solid lightgray;
+    padding: .5rem;
+    margin: 2rem auto;
+    line-height: 1.6rem;
+}
+.clothes .pic1{
+    min-width: 40%;
+    align-self: center;
+}
+.clothes .pic1 img{
+    max-width: 100%;
+}
+.detail p span{
+    text-decoration: line-through;
+}
+.detail h5{
+    color: yellowgreen;
+    text-align: center;
+}
+.testimonial{
+    max-width: 100%;
+    padding: 0 15rem;
+    display: flex;
+    padding-bottom: 2rem;
+}
+.article{
+    max-width: 24%;
+    min-width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 1.3rem;
+}
+.heading5{
+    max-width: 100%;
+    padding-bottom: 1rem ;
+    font-size: 1.5rem;
+    border-bottom: .1px solid lightgray;
+    margin-bottom: 1.5rem;
+    font-family: sans-serif;
+}
+.desc2{
+    max-width: 100%;
+    border: .1px solid lightgray;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.desc2 img{
+    max-width: 50%;
+    border-radius: 50%;
+}
+#name{
+    padding: 1rem;
+    text-align: center;
+}
+#name h6{
+    padding: .5rem;
+    font-weight: 600;
+    color: gray;
+    font-size: .7rem;
+}
+#quotes{
+    max-width: 12%;
+    padding-bottom: 1rem;
+}
+.desc2 p{
+    padding: 1rem;
+    text-align: center;
+}
+.offer2{
+    min-width: 44%;
+    max-width: 45%;
+    border-radius: 8px;
+    max-height: 100%;
+    background-image: url(/cta-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent{
+   background-color: whitesmoke;
+   opacity: .7;
+   min-width: 50%;
+   min-height: 50%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.discount{
+    padding: .4rem;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 5px;
+    font-size: .8rem;
+    margin-bottom: .6rem;
+}
+.child{
+    margin-bottom: .6rem;
+    font-size: .8rem;
+}
+.child h5{
+    font-size: .9rem;
+    color: grey;
+}
+.child h4{
+    color: black;
+    font-size: .8rem;
+}
+.box8{
+    max-width: 100%;
+    max-height: 100%;
+    border: .1px solid lightgray;
+}
+.desc3{
+    max-width: 100%;
+    max-height: max-content;
+    padding: 1rem .4rem;
+    margin: .4rem;
+}
+.delivery{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100%;
+    max-height: 2rem;
+}
+.logo5{
+    min-width: 30%;
+    max-width: 35%;
+    font-size: 2rem;
+    color: rgb(107, 161, 19);
+    padding: 0;
+    margin: 0;
+}
+.text5{
+    max-width: 100%;
+    font-size: .8rem;
+    text-align: center;
+    line-height: 1rem;
+}
+.text5 h3{
+    font-size: .9rem;
+}
+.last_sec{
+    padding: 0 16rem;
+}
+.showcase{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: .5rem;
+}
+.item4{
+    max-width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.pic6{
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+.pic6 img{
+    max-width: 100%;
+    border-radius: 6px;
+}
+.text6 h5{
+    color: rgb(107, 161, 19) ;
+    font-size: 1rem;
+    margin-bottom: .5rem;
+}
+.text6 h3{
+    font-size: .9rem;
+    margin-bottom: .5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer{
+    max-width: 100%;
+    padding: 0 15rem;
+    background-color: black;
+    border: .1px solid lightgray;
+}
+.part1{
+    padding: 3rem 1rem;
+    color: grey;
+}
+.part1 h4{
+    color:rgb(107, 161, 19) ;
+    padding-bottom: 1rem;
+}
+.part1 p{
+    padding: .3rem 0;
+}
+.list_head{
+    padding: 3rem 0;
+}
+.list_head h3{
+    color: whitesmoke;
+    font-size: .8rem;
+    padding-bottom: .4rem;
+}
+.list_head hr{
+    min-width: 30%;
+    max-width: 40%;
+    margin-bottom: .5rem;
+}
+.list_head ul li{
+    list-style: none;
+    color: grey;
+    padding: .3rem;
+}
+.foot1{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: space-between;
+}
+.payment{
+    padding: 2rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.pay{
+    color: grey;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 2rem;
+}

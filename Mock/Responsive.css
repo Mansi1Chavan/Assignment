@@ -1,48 +1,50 @@
-@media only screen and (max-width: 527px) {
-  .shopping{
-position: absolute;
-right:0px;  }
-  
-  
-  .ship{
-position: absolute;
-left:75px;}
-  
+@media (min-width:0px) and (max-width: 520px) {
+  .shopping {
+    max-width: 100%;
+  }
+
+  .ship {
+    position: absolute;
+    left: 75px;
+  }
+
   .left-first {
     display: none;
 
   }
+
   .first {
     height: 3rem;
-    width: 60vw;
+    width: 60%;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+  }
 
   .second {
     display: flex;
     flex-direction: column;
-    position:relative;
+    position: relative;
   }
 
   .right-first {
     display: none;
   }
+
   .product {
     height: 6rem;
-    /* width: 25vw; */
     padding: .6rem;
-    /* font-size: 85%; */
-    /* position: relative; */
 
-}
-  .mid-second i{
-    position:absolute;
-    right:1.5rem;
-    top:3px;
-}
+  }
+
+  .mid-second i {
+    position: absolute;
+    right: -3rem;
+    top: 3px;
+    max-width: 100%;
+    min-width: 50%;
+  }
 
   .right-second {
     background-color: aqua;
@@ -51,19 +53,13 @@ left:75px;}
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    position:fixed;
+    position: fixed;
     bottom: 0;
-    /* overflow:hidden; */
 
   }
 
   .search {
     width: 30rem;
-
-  }
-
-  .icon {
-    position: unset;
 
   }
 
@@ -74,25 +70,20 @@ left:75px;}
   }
 
   .left-second {
-    font-size: 15px;
+    font-size: 40px;
 
   }
 
   .product {
     height: 15px;
-    width: 80vw;
+    width: 80%;
     font-size: 15px;
 
   }
 
-  .third {
-    display: none;
-  }
-
   .fourth {
     height: 20rem;
-    width: 80vw;
-    padding-top: 2rem;
+    width: 80%;
     margin: 50px;
     background-size: cover;
   }
@@ -106,23 +97,25 @@ left:75px;}
     padding-right: 0px;
   }
 
+  .deal {
+    margin-left: 10%;
+    margin-top: 15%;
+  }
+
   .box1 {
-    display: none;
-  }
+    width: 70%;
+    height: 4rem;
+    margin: .3rem;
 
-  .box11 {
-    width: 100vw;
-    margin: 5px;
-  }
-
-  .sixth {
-    flex-wrap: wrap;
   }
 
   .seventh {
+    margin-top: 50px;
+    display: flex;
     flex-wrap: wrap;
-    margin-left: 50px;
-    height: 1350px;
+    margin-left: 10%;
+    width: 20rem;
+    height: 1550px;
   }
 
   .clothes {
@@ -133,21 +126,30 @@ left:75px;}
 
   .eighth {
     height: 35rem;
-    width: 16rem;
-    margin-top: 5rem;
+    width: 70%;
     border-radius: 10px;
-    margin: auto;
+    margin-left: 13%;
   }
 
   .shampo {
-    float: left;
-    height: 3rem;
+    height: 15em;
+    width: 1.3rem;
+  }
+
+  .new {
+    padding: 5px;
+    margin-left: 10%;
   }
 
   .star {
     height: 10px;
     width: 10px;
     float: left;
+  }
+
+  .emmet {
+    position: absolute;
+    right: 3.5rem;
   }
 
   .conditioner {
@@ -161,49 +163,47 @@ left:75px;}
 
   .tenth {
     flex-wrap: wrap;
-    margin-left: 1%;
+    margin-left: 10%;
   }
 
   .new {
-    margin-left: .2rem;
+    margin-left: 10%;
     padding: 1rem;
   }
 
   .eleventh {
     flex-wrap: wrap;
-margin-left:5%;
+    margin-left: 15%;
   }
 
-  .firstdiv {
-    margin-left: 1%;
+  .thirdiv {
+    margin-left: 20%;
+  }
+
+  .secondiv {
+    width: 100%;
+    margin-top: 50px;
   }
 
   .discount {
     margin-top: 30%;
     width: 8rem;
     margin-left: 5%;
-   }
-
-  .banner44 {
-    width: 100%;
-
   }
 
+
   .img1 {
-width: 18rem;  
-}
+    width: 18rem;
+  }
 
-.black {
-  height: 200rem;
-  background-color: rgb(35, 34, 34);
-
-}
+  .black {
+    height: 450rem;
+  }
 
   .flex {
     flex-wrap: wrap;
     margin-left: 0px;
     width: 100%;
-    /* background-color: rgb(35, 34, 34); */
   }
 
   .sticker {
@@ -220,10 +220,11 @@ width: 18rem;
   }
 
   .twelve {
-    margin-left: 4rem;
     overflow-x: scroll;
-    width: 20%;
+    width: 50%;
+    margin-left: 20%;
   }
+
   .firstdiv {
     margin-left: 2rem;
   }
@@ -232,25 +233,45 @@ width: 18rem;
     margin-left: 2rem;
 
   }
+
   .alan-doe {
     height: 17rem;
-    width: 12.5rem;  
-}
+    width: 12.5rem;
+  }
+
+  .black {
+    height: 130rem;
+    width: 55%;
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .payment {
+    width: 220px;
+  }
 }
 
-@media  screen and (max-width: 1009px) {
+@media (min-width: 528px) and (max-width: 1009px) {
   .left-first {
     display: none;
   }
-.left-second {
-  font-size: 3rem;
 
-}
-.mid-second i{
-min-width:fit-content;
-}
+  .left-second {
+    font-size: 3rem;
+
+  }
+
+  .mid-second i {
+    min-width: fit-content;
+  }
+
   .category {
     display: none;
+  }
+
+  .fourth {
+    width: 70%;
   }
 
   .sixth {
@@ -258,10 +279,7 @@ min-width:fit-content;
   }
 
   .fifth {
-    /* display: flex; */
-    /* overflow-x: scroll; */
-   max-width: 60vw;
-    /* padding-right: .5rem; */
+    max-width: 60vw;
   }
 
   .right-second {
@@ -271,49 +289,77 @@ min-width:fit-content;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    position:fixed;
+    position: fixed;
     bottom: 0;
-    /* top: auto; */
-    overflow:hidden;
-    }
+    overflow: hidden;
+  }
 
   .box1 {
-    width:50% ;
+    width: 50%;
 
   }
 
   .seventh {
-    margin-left: 20%;
     display: flex;
     flex-wrap: wrap;
-    width: 70%;
+    margin-left: 20%;
+    width: 40rem;
+    margin-top: 50px;
+  }
+
+  .deal {
+    margin-left: 20%;
+    padding: 20px;
+    width: 50vw;
   }
 
   .clothes {
     width: 15rem;
-
+    margin: 10px;
   }
 
   .eighth {
     margin-left: 20%;
-    width: 70%;
+    width: 65%;
+    height: 18em;
+
   }
 
   .shampo {
-    height: 15em;
+    height: 17em;
+    width: 180px;
+    float: left;
+  }
+
+  .time {
+    position: absolute;
+    right: 18rem;
+  }
+
+  .emmet {
+    position: absolute;
+    right: 13.5rem;
   }
 
   .new {
-    margin-left: 2rem;
+    margin-left: 20%;
   }
 
   .tenth {
-    margin-left: 20%;
+    margin-left: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 550px;
+  }
+
+  .jacket {
+    width: 12rem;
+    margin: 10px;
   }
 
   .twelve {
     overflow-x: scroll;
-    width: 74%;
+    width: 70%;
   }
 
   .deal {
@@ -323,26 +369,34 @@ min-width:fit-content;
   .eleventh {
     display: flex;
     flex-direction: column;
-    margin-left: 5%;
+    margin-left: 20%;
 
   }
 
   .alan-doe {
-    margin-left: 4rem;
+    margin-left: 20%;
   }
 
   .thirdiv {
-    margin-left: 0;
+    margin-left: 20%;
+
+  }
+
+  .firstdiv {
+    margin-left: 26%;
 
   }
 
   .secondiv {
-    width: 35rem;
+    width: 115%;
     margin-top: 3rem;
+
   }
+
   .black {
-    height: 45.2rem;
-    padding: 2.5rem;
-    line-height: 2.2rem;
-}
+    height: 85rem;
+    width: 60%;
+    margin-left: 20%;
+  }
+
 }
