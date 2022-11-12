@@ -1,4 +1,4 @@
-@media (min-width:0px) and (max-width: 520px) {
+@media (min-width:0px) and (max-width: 660px) {
   .shopping {
     max-width: 100%;
   }
@@ -262,7 +262,7 @@
   }
 }
 
-@media (min-width: 528px) and (max-width: 1009px) {
+@media (min-width: 660px) and (max-width: 1200px) {
   .left-first {
     display: none;
   }
