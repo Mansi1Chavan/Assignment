@@ -47,7 +47,8 @@
   }
 
   .right-second {
-    background-color: aqua;
+    background-color: rgb(154, 206, 206);
+    top:auto;
     width: 100%;
     height: 3rem;
     display: flex;
@@ -99,7 +100,7 @@
 
   .deal {
     margin-left: 10%;
-    margin-top: 15%;
+    margin-top: 5%;
   }
 
   .box1 {
@@ -110,12 +111,12 @@
   }
 
   .seventh {
-    margin-top: 50px;
+    margin-top: 80px;
     display: flex;
     flex-wrap: wrap;
     margin-left: 10%;
     width: 20rem;
-    height: 1550px;
+    height: 1410px;
   }
 
   .clothes {
@@ -125,15 +126,18 @@
   }
 
   .eighth {
-    height: 35rem;
-    width: 70%;
-    border-radius: 10px;
-    margin-left: 13%;
-  }
-
+    margin-top: 0;
+    height: 35em;
+    width:70%;    
+    margin-left:10%;
+    border-radius: .6rem;
+    display: flex;
+    flex-direction: column;
+}
+  
   .shampo {
-    height: 15em;
-    width: 1.3rem;
+    height: 15rem;
+    width:20rem;
   }
 
   .new {
@@ -149,9 +153,15 @@
 
   .emmet {
     position: absolute;
-    right: 3.5rem;
+    right: 4.5rem;
+    top: 175rem;
   }
+.time{
+  position: absolute;
+  top: 175rem;
+  right: 4.5rem;
 
+}
   .conditioner {
     font-size: 15px;
     text-align: center;
@@ -283,7 +293,7 @@
   }
 
   .right-second {
-    background-color: aqua;
+    background-color: rgb(178, 216, 216);
     width: 100%;
     height: 3rem;
     display: flex;
@@ -291,7 +301,7 @@
     align-items: center;
     position: fixed;
     bottom: 0;
-    overflow: hidden;
+    top:auto;
   }
 
   .box1 {
