@@ -34,3 +34,9 @@
 // document.body.style.color ="red";
 // app.style.color ="yellow";
 // console.log(app);
+
+
+
+// console.log(document.documentElement);
+// console.log(document.body);
+// console.log(document.head);
