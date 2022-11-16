@@ -40,3 +40,20 @@
 // console.log(document.documentElement);
 // console.log(document.body);
 // console.log(document.head);
+
+
+
+// const ele = document.getElementById("ww")
+// ele.addEventListener("click" , function(){console.log("Button C")})
+// console.log(ele);
+
+
+const ele = document.getElementById("ww")
+
+let count = 0;
+
+
+dispatchEvent.addEventListner("mouseover", () => {
+count = 0;
+theNumber
+})
