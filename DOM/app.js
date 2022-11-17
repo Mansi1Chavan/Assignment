@@ -48,12 +48,54 @@
 // console.log(ele);
 
 
-const ele = document.getElementById("ww")
+// const ele = document.getElementById("ww")
 
-let count = 0;
+// let count = 0;
 
 
-dispatchEvent.addEventListner("mouseover", () => {
-count = 0;
-theNumber
-})
+// dispatchEvent.addEventListner("mouseover", () => {
+// count = 0;
+// theNumber
+// })
+
+
+
+
+// const elem = document.querySelector(".zero")
+// const element = document.querySelector("#click")
+// let counter = 0;
+
+
+//  function sumNumber() {
+//     counter++;
+// theNumber.innerText = counter;
+// }
+
+
+// elem.addEventListner("click" , sumNumber);
+// element.addEventListener("mouseover")
+// console.log(element);
+
+
+
+// document.addEventListener('keydown' , (events) => {
+//     console.log(events);
+// }
+
+// const showkey = document.getElementById('show')
+
+
+const element = document.getElementById('hello');
+element.style.color="red";
+
+console.log(element);
+
+
+const docs = document.getElementById('key2');
+docs.style.border='1px solid red';
+console.log(docs);
+
+
+const total = document.querySelectorAll('#hello' , '.key2')
+// total.style.backgroundColor='yellow';
+console.log(total);
